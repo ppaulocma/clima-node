@@ -1,0 +1,20 @@
+{
+  "name": "clima",
+  "version": "1.0.0",
+  "description": "Projeto de clima IoT com arduino e node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppaulocma/clima-node.git"
+  },
+  "author": "Paulo César",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppaulocma/clima-node/issues"
+  },
+  "homepage": "https://github.com/ppaulocma/clima-node#readme"
+}
