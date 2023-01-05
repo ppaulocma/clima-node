@@ -4,8 +4,8 @@
   "description": "Projeto de clima IoT com arduino e node.js",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/ppaulocma/clima-node/issues"
   },
-  "homepage": "https://github.com/ppaulocma/clima-node#readme"
+  "homepage": "https://github.com/ppaulocma/clima-node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "websocket": "^1.0.34",
+    "ws": "^8.11.0"
+  }
 }
